@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Alien Frens",
+        "address": "0x123b30e25973fecd8354dd5f41cc45a3065ef88c",
+        "subdomains": [
+            {
+                "name": "frn.eth",
+                "hash": "0x9fa63e2c2db80ae175e1322195a0d3db554c549b1d8d1b3d71515f3c968ac78b"
+            }
+        ]
+    },
+    {
+        "name": "Zen Apes",
+        "address": "0x838804a3dd7c717396a68f94e736eaf76b911632",
+        "subdomains": [
+            {
+                "name": "oohm.eth",
+                "hash": "0x007a89899e5fcffdf1a4a531d63365d617304c39a2d64c4e937162c9f15066c3"
+            }
+        ]
+    },
+    {
+        "name": "Wizards DAO",
+        "address": "0xc23b12eba3af92dc3ec94744c0c260cad0eed0e5",
+        "subdomains": [
+            {
+                "name": "wzrds.eth",
+                "hash": "0xeb99d2bf8278323c5328580a5af9af225805ad3ac5217635e44726a988df916b"
+            }
+        ]
+    }
+]
