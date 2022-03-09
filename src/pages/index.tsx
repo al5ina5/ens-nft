@@ -90,14 +90,16 @@ export default function IndexPage() {
                                     <div className="space-y-2">
                                         <p>Enter your desired subdomain slug.</p>
                                         <input value={slugInput} onChange={(e) => setSlugInput(e.target.value)} className="bg-transparent bg-white bg-opacity-10 p-2 w-full rounded" type="text" />
-                                        <div className="p-6 bg-neutral-400 text-neutral-800 text-center">
-                                            <p className="text-xs">Your sub-address will be:</p>
-                                            <p className="font-extrabold">
-                                                {slugInput || 'xxx'}.{selectedDomain.name}
-                                            </p>
+                                        <div className="p-6 bg-neutral-400 text-neutral-800 text-center space-y-4">
+                                            <img className="mx-auto w-32 h-32 rounded shadow-2xl" src={nft.image_url} alt="" />
+                                            <div>
+                                                <p className="text-xs">Your sub-address will be:</p>
+                                                <p className="font-extrabold">
+                                                    {slugInput || 'xxx'}.{selectedDomain.name}
+                                                </p>
+                                            </div>
                                         </div>
                                         <Button className="bg-blue-500 text-neutral-800">Register sub-address</Button>
-                                        <img className="w-full" src={nft.image_url} alt="" />
                                     </div>
                                 )}
                             </div>
